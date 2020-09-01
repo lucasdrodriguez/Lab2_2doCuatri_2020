@@ -1,0 +1,7 @@
+C:\Users\Isma\source\repos\EjercicioArrepentidor\EjercicioArrepentidor\bin\Debug\EjercicioArrepentidor.exe.config
+C:\Users\Isma\source\repos\EjercicioArrepentidor\EjercicioArrepentidor\bin\Debug\EjercicioArrepentidor.exe
+C:\Users\Isma\source\repos\EjercicioArrepentidor\EjercicioArrepentidor\bin\Debug\EjercicioArrepentidor.pdb
+C:\Users\Isma\source\repos\EjercicioArrepentidor\EjercicioArrepentidor\obj\Debug\EjercicioArrepentidor.csprojAssemblyReference.cache
+C:\Users\Isma\source\repos\EjercicioArrepentidor\EjercicioArrepentidor\obj\Debug\EjercicioArrepentidor.csproj.CoreCompileInputs.cache
+C:\Users\Isma\source\repos\EjercicioArrepentidor\EjercicioArrepentidor\obj\Debug\EjercicioArrepentidor.exe
+C:\Users\Isma\source\repos\EjercicioArrepentidor\EjercicioArrepentidor\obj\Debug\EjercicioArrepentidor.pdb
