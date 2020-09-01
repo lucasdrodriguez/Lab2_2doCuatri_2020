@@ -39,8 +39,26 @@ namespace EjercicioArrepentidor
                     break;
                 }
             }
+        }
 
+        public static string MostrarAlumnos()
+        {
+            string auxString = null;
 
+            for (int i = 0; i < misEstudiantes.Length; i++)
+            {
+                if (misEstudiantes[i] != null)
+                {
+                    auxString += "Apellido,nombre: " + misEstudiantes[i].GetNombreYApellido() + "\n" + "legajo: " + misEstudiantes[i].GetLegajo().ToString();
+                    auxString += "\n";
+              
+                }
+            }
+
+            if (auxString == null)
+                auxString = "Sin informacion de alumnos";
+
+            return auxString;
         }
 
     }

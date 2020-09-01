@@ -43,20 +43,16 @@ namespace EjercicioArrepentidor
         }
 
 
-
-
-
-
-
         public string GetNombreYApellido()
         {
-
             return this.apellido + ","+this.nombre;
-
-
         }
 
+        public int GetLegajo()
+        {
+            return this.legajo;
 
+        }
 
 
     }

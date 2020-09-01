@@ -18,7 +18,7 @@ namespace EjercicioArrepentidor
             Establecimiento.AgregarAlumno(new Estudiante("pepito", "juancito", 123));
             Establecimiento.AgregarAlumno(new Estudiante("asd", "asdadsad", 321));
 
-
+            Console.WriteLine(Establecimiento.MostrarAlumnos());
 
             Console.ReadKey();
 
