@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace EjercicioArrepentidor
 {
-   static class Establecimiento
+    static class Establecimiento // jardinDeInfantes
     {
 
-      static  string nombreDelJardin;
-      static  Estudiante[] misEstudiantes;
-
+        static string nombreDelJardin;
+        static Estudiante[] misEstudiantes;
+        static int antiguedad;
 
         static Establecimiento()
         {
@@ -20,7 +20,7 @@ namespace EjercicioArrepentidor
         }
 
 
-        public static void SetearNombreJardin(string nombre)
+        public static void SetearInfoJardin(string nombre)
         {
             if (string.IsNullOrEmpty(nombreDelJardin))
             {
@@ -29,11 +29,18 @@ namespace EjercicioArrepentidor
 
         }
 
+        public static void SetearInfoJardin(int auxEdad)
+        {
+            antiguedad = auxEdad;
+
+        }
+      
+
         public static void AgregarAlumno(Estudiante auxEstudiante)
         {
             for (int i = 0; i < misEstudiantes.Length; i++)
             {
-                if(misEstudiantes[i] == null)
+                if (misEstudiantes[i] == null)
                 {
                     misEstudiantes[i] = auxEstudiante;
                     break;
@@ -47,12 +54,12 @@ namespace EjercicioArrepentidor
 
             for (int i = 0; i < misEstudiantes.Length; i++)
             {
-                if (misEstudiantes[i] != null)
-                {
-                    auxString += "Apellido,nombre: " + misEstudiantes[i].GetNombreYApellido() + "\n" + "legajo: " + misEstudiantes[i].GetLegajo().ToString();
-                    auxString += "\n";
-              
-                }
+                //if (misEstudiantes[i] != null)
+                //{
+                //    auxString += "Apellido,nombre: " + misEstudiantes[i].GetNombreYApellido() + "\n" + "legajo: " + misEstudiantes[i].GetLegajo().ToString();
+                //    auxString += "\n";
+
+                //}
             }
 
             if (auxString == null)

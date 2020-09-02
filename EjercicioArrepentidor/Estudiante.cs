@@ -11,48 +11,60 @@ namespace EjercicioArrepentidor
 
         string nombre;
         string apellido;
-        int legajo;
+        int    dni;
+        int    alturaEnCm;
+        string direccion;
 
-        public Estudiante()
-        {
-            this.nombre = "sin nombre";
-            this.apellido = "sin apellido";
-            this.legajo = -1;
 
-        }
-
-        public Estudiante(string nomb,string ape,int leg)
+        public Estudiante(string nomb,string ape,int dni, int alturaEnCm)
         {
             this.apellido = ape;
             this.nombre = nomb; 
-            this.legajo = leg;
+            this.dni = dni;
+            this.alturaEnCm = alturaEnCm;
 
         }
-        public Estudiante(string nomb, int leg)
+
+        public Estudiante(string nomb, string ape, int dni,string direccion): this(nomb,ape,dni)
+        {
+            this.direccion = direccion;
+        }
+
+
+
+        public Estudiante(string nomb, string apellido, int dni):this()
         {
             this.nombre = nomb;
-            this.legajo = leg;
-
+            this.dni = dni;
+            this.apellido = apellido;
         }
 
-        public Estudiante( int leg)
+        //ctor tab tab
+        private Estudiante()
         {
-          
-            this.legajo = leg;
-
+            this.nombre = "sin nombre";
+            this.apellido = "sin apellido";
+            this.dni = -1;
+            this.alturaEnCm = -1;
+            this.direccion = "sin direccion";
         }
-
+      
 
         public string GetNombreYApellido()
         {
+            //  Rodriguez,Lucas
             return this.apellido + ","+this.nombre;
         }
 
-        public int GetLegajo()
-        {
-            return this.legajo;
 
+        public string GetNombreYApellido(string mensaje)
+        {
+            // return mensaje + "-" + this.apellido + "," + this.nombre;
+            return mensaje + "-" + this.GetNombreYApellido();
         }
+
+
+
 
 
     }
