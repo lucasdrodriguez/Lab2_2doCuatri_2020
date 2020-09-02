@@ -1,0 +1,7 @@
+C:\Users\Isma\Documents\Facultad\Lab2\Lab2_2doCuatri_2020\ConversionExplicita-Implicita-Objetos\bin\Debug\ConversionExplicita-Implicita-Objetos.exe.config
+C:\Users\Isma\Documents\Facultad\Lab2\Lab2_2doCuatri_2020\ConversionExplicita-Implicita-Objetos\bin\Debug\ConversionExplicita-Implicita-Objetos.exe
+C:\Users\Isma\Documents\Facultad\Lab2\Lab2_2doCuatri_2020\ConversionExplicita-Implicita-Objetos\bin\Debug\ConversionExplicita-Implicita-Objetos.pdb
+C:\Users\Isma\Documents\Facultad\Lab2\Lab2_2doCuatri_2020\ConversionExplicita-Implicita-Objetos\obj\Debug\ConversionExplicita-Implicita-Objetos.csprojAssemblyReference.cache
+C:\Users\Isma\Documents\Facultad\Lab2\Lab2_2doCuatri_2020\ConversionExplicita-Implicita-Objetos\obj\Debug\ConversionExplicita-Implicita-Objetos.csproj.CoreCompileInputs.cache
+C:\Users\Isma\Documents\Facultad\Lab2\Lab2_2doCuatri_2020\ConversionExplicita-Implicita-Objetos\obj\Debug\ConversionExplicita-Implicita-Objetos.exe
+C:\Users\Isma\Documents\Facultad\Lab2\Lab2_2doCuatri_2020\ConversionExplicita-Implicita-Objetos\obj\Debug\ConversionExplicita-Implicita-Objetos.pdb
