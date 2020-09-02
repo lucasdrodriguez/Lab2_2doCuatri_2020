@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,7 +30,6 @@ namespace EjercicioArrepentidor
         {
             this.direccion = direccion;
         }
-
 
 
         public Estudiante(string nomb, string apellido, int dni):this()
@@ -63,8 +63,64 @@ namespace EjercicioArrepentidor
             return mensaje + "-" + this.GetNombreYApellido();
         }
 
+        
+        public static bool operator ==(Estudiante[] arrayAux,Estudiante auxEstu)
+        {
+            bool retorno = false;
+            for (int i = 0; i < arrayAux.Length; i++)
+            {
+                if(arrayAux[i].dni == auxEstu.dni )
+                {
+                    retorno =  true;
+                    break;
+                }
+            }
+            return retorno;
+        }
 
+        public static bool operator !=(Estudiante[] arrayAux, Estudiante auxEstu)
+        {
+            return !(arrayAux == auxEstu);
+        }
 
+        public static bool operator +(Estudiante[] arrayAux, Estudiante auxEstu)
+        {
+            bool retorno = false;
+            if(arrayAux != auxEstu)
+            {
+                for (int i = 0; i < arrayAux.Length; i++)
+                {
+                    if (arrayAux[i] == null)
+                    {
+                        arrayAux[i] = auxEstu;
+                        retorno = true;
+                        break;
+                    }
+                }
+            }
+
+            return retorno;
+
+        }
+        public static bool operator -(Estudiante[] arrayAux, Estudiante auxEstu)
+        {
+            bool retorno = false;
+            if (arrayAux == auxEstu)
+            {
+                for (int i = 0; i < arrayAux.Length; i++)
+                {
+                    if (arrayAux[i] == auxEstu)
+                    {
+                        arrayAux[i] = null;
+                        retorno = true;
+                        break;
+                    }
+                }
+            }
+
+            return retorno;
+
+        }
 
 
     }
